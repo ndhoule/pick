@@ -1,0 +1,19 @@
+{
+  "name": "pick",
+  "repo": "ndhoule/pick",
+  "version": "1.0.0",
+  "description": "Create a shallow copy of the input object which contains only the specified properties.",
+  "keywords": [
+    "functional",
+    "pick"
+  ],
+  "license": "MIT",
+  "scripts": ["index.js"],
+  "dependencies": {
+    "ndhoule/keys": "^1.0.0"
+  },
+  "development": {
+    "mochajs/mocha": "^2.1.0",
+    "chaijs/deep-eql": "^0.1.3"
+  }
+}

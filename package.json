@@ -1,0 +1,28 @@
+{
+  "name": "pick",
+  "version": "1.0.0",
+  "description": "Create a shallow copy of the input object which contains only the specified properties.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ndhoule/pick.git"
+  },
+  "keywords": [
+    "component",
+    "functional",
+    "pick"
+  ],
+  "author": "Nathan Houle <nathan@nathanhoule.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ndhoule/pick/issues"
+  },
+  "homepage": "https://github.com/ndhoule/pick",
+  "dependencies": {
+    "keys": "git://github.com/ndhoule/keys.git#1.0.0"
+  },
+  "devDependencies": {
+    "deep-eql": "^0.1.3",
+    "mocha": "^2.1.0"
+  }
+}
