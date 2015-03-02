@@ -1,3 +1,6 @@
+/* globals describe, it */
+/* eslint-disable no-new-wrappers */
+
 'use strict';
 
 var assert = require('assert');
