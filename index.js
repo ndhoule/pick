@@ -1,17 +1,17 @@
 'use strict';
 
-var toString = Object.prototype.toString;
+var objToString = Object.prototype.toString;
 
 var existy = function(val) {
   return val != null;
 };
 
 var isArray = function(val) {
-  return toString.call(val) === '[object Array]';
+  return objToString.call(val) === '[object Array]';
 };
 
 var isString = function(val) {
-   return typeof val === 'string' || toString.call(val) === '[object String]';
+   return typeof val === 'string' || objToString.call(val) === '[object String]';
 };
 
 var isObject = function(val) {
