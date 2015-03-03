@@ -1,4 +1,4 @@
-# pick [![Circle CI][circleci-badge]][circleci-link]
+# pick [![CI][ci-badge]][ci-link]
 
 Create a shallow copy of the input object which contains only the specified properties.
 
@@ -12,5 +12,5 @@ component install ndhoule/pick
 
 Released under the [MIT license](LICENSE.md).
 
-[circleci-link]: https://circleci.com/gh/ndhoule/pick
-[circleci-badge]: https://circleci.com/gh/ndhoule/pick.svg?style=svg&circle-token=144e4dce0aa5c6a4762ad2db58c3d5c6c0220b5c
+[ci-link]: https://travis-ci.org/ndhoule/pick
+[ci-badge]: https://travis-ci.org/ndhoule/pick.svg?branch=master
