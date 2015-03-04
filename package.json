@@ -18,9 +18,7 @@
     "url": "https://github.com/ndhoule/pick/issues"
   },
   "homepage": "https://github.com/ndhoule/pick",
-  "dependencies": {
-    "keys": "git://github.com/ndhoule/keys.git#1.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "esformatter-braces": "^0.1.7",
     "esformatter-quotes": "^1.0.0",

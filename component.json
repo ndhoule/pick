@@ -9,9 +9,7 @@
   ],
   "license": "MIT",
   "scripts": ["index.js"],
-  "dependencies": {
-    "ndhoule/keys": "^1.0.0"
-  },
+  "dependencies": {},
   "development": {
     "mochajs/mocha": "^2.1.0",
     "chaijs/deep-eql": "^0.1.3"
