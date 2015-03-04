@@ -38,7 +38,7 @@ var isObject = function(val) {
  * //=> { name: 'Tim', fears: 'rabbits' }
  */
 
-module.exports = function pick(props, object) {
+var pick = function pick(props, object) {
   if (!existy(object) || !isObject(object)) {
     return {};
   }
@@ -52,9 +52,8 @@ module.exports = function pick(props, object) {
   }
 
   var result = {};
-  var i = -1;
 
-  while (++i < props.length) {
+  for (var i = 0; i < props.length; i += 1) {
     if (isString(props[i]) && props[i] in object) {
       result[props[i]] = object[props[i]];
     }
@@ -62,3 +61,9 @@ module.exports = function pick(props, object) {
 
   return result;
 };
+
+/**
+ * Exports.
+ */
+
+module.exports = pick;
