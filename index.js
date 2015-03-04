@@ -2,18 +2,22 @@
 
 var objToString = Object.prototype.toString;
 
+// TODO: Move to lib
 var existy = function(val) {
   return val != null;
 };
 
+// TODO: Move to lib
 var isArray = function(val) {
   return objToString.call(val) === '[object Array]';
 };
 
+// TODO: Move to lib
 var isString = function(val) {
    return typeof val === 'string' || objToString.call(val) === '[object String]';
 };
 
+// TODO: Move to lib
 var isObject = function(val) {
   return val != null && typeof val === 'object';
 };
