@@ -5,7 +5,8 @@ Create a shallow copy of the input object which contains only the specified prop
 ## Installation
 
 ```sh
-component install ndhoule/pick
+$ component install ndhoule/pick
+$ npm install @ndhoule/pick
 ```
 
 ## License
