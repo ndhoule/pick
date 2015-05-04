@@ -1,5 +1,5 @@
 {
-  "name": "pick",
+  "name": "@ndhoule/pick",
   "version": "1.0.0",
   "description": "Create a shallow copy of the input object which contains only the specified properties.",
   "main": "index.js",
