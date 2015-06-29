@@ -11,7 +11,7 @@ $ npm install @ndhoule/pick
 
 ## API
 
-### pick(props : string|string[], object: Object) => Object
+### `pick(props : string|string[], object: Object) => Object`
 
 Return a shallow copy of an input `object` containing only a specified list of properties.
 
