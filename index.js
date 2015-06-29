@@ -27,9 +27,7 @@ var isObject = function(val) {
  *
  * @name pick
  * @api public
- * @category Object
- * @see {@link omit}
- * @param {Array.<string>|string} props The property or properties to keep.
+ * @param {string|string[]} props The property or properties to keep.
  * @param {Object} object The object to iterate over.
  * @return {Object} A new object containing only the specified properties from `object`.
  * @example
