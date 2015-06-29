@@ -1,8 +1,6 @@
 # pick [![CI][ci-badge]][ci-link]
 
-Create a shallow copy of the input object which contains only the specified properties.
-
-## Installation
+Create a shallow copy of an input object that contains only the specified properties.
 
 ```sh
 $ component install ndhoule/pick
