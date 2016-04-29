@@ -39,7 +39,6 @@ var isObject = function(val) {
  * pick(['name', 'fears'], person);
  * //=> { name: 'Tim', fears: 'rabbits' }
  */
-
 var pick = function pick(props, object) {
   if (!existy(object) || !isObject(object)) {
     return {};
@@ -64,7 +63,7 @@ var pick = function pick(props, object) {
   return result;
 };
 
-/**
+/*
  * Exports.
  */
 
